@@ -1,0 +1,107 @@
+
+/* Stripe-inspired modern design */
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f6f9fc;
+    color: #32325d;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+    color: #1a1f36;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+/* Buttons */
+.button {
+    display: inline-block;
+    background: linear-gradient(90deg, #635bff, #3d2c8d);
+    color: white;
+    font-weight: 500;
+    padding: 12px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.button:hover {
+    background: linear-gradient(90deg, #5046e5, #2a1a72);
+}
+
+/* Sections */
+section {
+    padding: 80px 10%;
+    text-align: center;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+    color: #32325d;
+    font-weight: 500;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    color: #635bff;
+}
+
+/* Features section */
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+.feature {
+    flex: 1;
+    min-width: 300px;
+    max-width: 400px;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 40px 10%;
+    background: #1a1f36;
+    color: white;
+}
+
+footer a {
+    color: #aab7c4;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: white;
+}
