@@ -233,6 +233,20 @@ section.alternate {
     margin-top: 3rem;
 }
 
+/* Features Grid - 2-wide Layout (for 2 or 4 features) */
+.features.two-wide {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 800px;
+    margin: 3rem auto 0;
+}
+
+@media (max-width: 768px) {
+    .features.two-wide {
+        grid-template-columns: 1fr;
+        max-width: none;
+    }
+}
+
 .feature {
     background: white;
     padding: 2rem;
